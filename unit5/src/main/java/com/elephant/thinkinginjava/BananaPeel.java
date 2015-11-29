@@ -6,6 +6,7 @@ package com.elephant.thinkinginjava;
  */
 
 class Banana{
+    
     void peel(int i){
         System.out.println("I am peel,this object number is : "+i);
     }
