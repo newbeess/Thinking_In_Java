@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f34f022f-7e4f-44b7-9ecd-0587dac4f0d2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/Apple.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/Book.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/Dog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/Dog1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/Exercise10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/Exercise11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/Exercise5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/Exercise6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/Exercise7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/Exercise8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/Exercise9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/Flower.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/Leaf.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/PassingThis.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/Peeler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/Person.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/QQ.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/TerminationCondition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/WithDefaultConstructor.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/Banana.class" afterPath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/Banana.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/BananaPeel.class" afterPath="$PROJECT_DIR$/target/classes/com/elephant/thinkinginjava/BananaPeel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/elephant/thinkinginjava/BananaPeel.java" afterPath="$PROJECT_DIR$/src/main/java/com/elephant/thinkinginjava/BananaPeel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f34f022f-7e4f-44b7-9ecd-0587dac4f0d2" name="Default" comment="" />
     <ignored path="unit5.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -94,8 +70,8 @@
       <file leaf-file-name="Exercise16.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/elephant/thinkinginjava/Exercise16.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33582088">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.31716418">
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -736,12 +712,12 @@
       <workItem from="1448196499603" duration="2614000" />
       <workItem from="1448775065914" duration="7000" />
       <workItem from="1450076552488" duration="2432000" />
-      <workItem from="1450081516922" duration="5000" />
+      <workItem from="1450081516922" duration="389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5058000" />
+    <option name="totallyTimeSpent" value="5442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -948,8 +924,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elephant/thinkinginjava/Exercise16.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33582088">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.31716418">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding />
         </state>
       </provider>
