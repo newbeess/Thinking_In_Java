@@ -34,5 +34,6 @@ public class SprinklerSystem
     {
 		SprinklerSystem sprinklers=new SprinklerSystem();
         System.out.println(sprinklers);
+
     }
 }

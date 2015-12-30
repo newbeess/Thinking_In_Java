@@ -1,7 +1,11 @@
 package com.elephant.thinkinginjava;
 
 /**
- * Created by elephant on 15/12/19.
+ * Four types of initializations
+ * 								1. initialize when they were defined.				like s1 and s2
+ * 								2. initialize in constructor.						like s3,toy,and castille
+ * 								3. lazy initialize(initialize when they have to).	like s4
+ *								4. initialize in non-static block.					like i
  */
 class Soap{
 	private String s;
@@ -28,6 +32,7 @@ public class Bath {
 	public String toString(){
 		if(s4==null)
 			s4="Joy";
+		s1="haha";
 		return
 				"s1="+s1+"\n"+
 				"s2="+s2+"\n"+
