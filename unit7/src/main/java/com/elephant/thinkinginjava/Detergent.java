@@ -5,7 +5,7 @@ package com.elephant.thinkinginjava;
  */
 import static com.elephant.util.Print.*;
 class Cleanser{
-	private String s="Cleanser";
+	private String s="Cleanser.";
 	public void append(String a){
 		s+=a;
 	}
