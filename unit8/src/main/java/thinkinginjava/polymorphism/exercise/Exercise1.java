@@ -8,11 +8,17 @@ class Cycle{
 	public void ride(Cycle c){
 		print("Cycle.ride()");
 	}
+	public int wheel(){return 0;}
 }
 class Unicycle extends Cycle{
 	@Override
 	public void ride(Cycle c) {
 		print("Unicycle.ride()");
+	}
+
+	@Override
+	public int wheel() {
+		return 1;
 	}
 }
 class Bicycle extends Cycle{
@@ -20,11 +26,21 @@ class Bicycle extends Cycle{
 	public void ride(Cycle c) {
 		print("Bicycle.ride()");
 	}
+
+	@Override
+	public int wheel() {
+		return 2;
+	}
 }
 class Tricycle extends Cycle{
 	@Override
 	public void ride(Cycle c) {
 		print("Tricycle.ride()");
+	}
+
+	@Override
+	public int wheel() {
+		return 3;
 	}
 }
 public class Exercise1 {
