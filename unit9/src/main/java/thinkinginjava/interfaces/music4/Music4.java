@@ -4,7 +4,7 @@ import static com.elephant.util.Print.*;
 /**
  *	Abstract classes and methods.
  */
-enum Note{
+ enum Note{
 	MIDDLE_C,HIGHER_C
 }
 abstract class Instrument{
