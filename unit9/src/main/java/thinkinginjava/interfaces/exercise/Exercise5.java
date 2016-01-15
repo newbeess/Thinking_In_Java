@@ -1,9 +1,11 @@
 package thinkinginjava.interfaces.exercise;
 import thinkinginjava.interfaces.interfacewiththreemethod.WithThreeMethod;
 import static com.elephant.util.Print.*;
+
 /**
  * Implements a interface in another package.
  */
+
 public class Exercise5 implements WithThreeMethod{
 	public void f() {
 		print("implements f()");
