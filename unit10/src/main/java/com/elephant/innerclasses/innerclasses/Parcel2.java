@@ -1,4 +1,4 @@
-package com.elephant.thinkinginjava.innerclasses;
+package com.elephant.innerclasses.innerclasses;
 
 
 import static com.elephant.util.Print.*;
