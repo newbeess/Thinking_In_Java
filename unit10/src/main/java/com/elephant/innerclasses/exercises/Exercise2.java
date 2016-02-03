@@ -1,9 +1,31 @@
-package com.elephant.innerclasses.innerclasses;
+package com.elephant.innerclasses.exercises;
+
 import static com.elephant.util.Print.*;
 
 /**
- * Holds a sequence of Objects.
+ * 	Create a class , it has a String member and toString memthod which display it.
+ * 	Add some objects to Sequence object and display.
  */
+class StringHolder{
+	String s;
+	StringHolder(String s){this.s=s;}
+	public String toString() {return s;}
+}
+
+public class Exercise2 {
+	public static void main(String[] args){
+		Sequence sequence=new Sequence(10);
+		for (int i = 0; i < 10; i++)
+			sequence.add(new StringHolder(Integer.toString(i)));
+		Selector selector = sequence.selector();
+		while (!selector.end()) {
+			printnb(selector.current() + " ");
+			selector.next();
+		}
+	}
+}
+
+
 
 interface Selector{
 	boolean end();
@@ -11,7 +33,7 @@ interface Selector{
 	void next();
 }
 
-public class Sequence {
+ class Sequence {
 	private Object[] items;
 	private int next = 0;
 
@@ -35,14 +57,4 @@ public class Sequence {
 		public void next(){if (i<items.length) i++;}
 	}
 	public Selector selector(){return new SequenceSelector();}
-	public static void main(String[] args) {
-		Sequence sequence = new Sequence(10);
-		for (int i = 0; i < 10; i++)
-			sequence.add(Integer.toString(i));
-		Selector selector = sequence.selector();
-		while (!selector.end()) {
-			printnb(selector.current() + " ");
-			selector.next();
-		}
-	}
 }
