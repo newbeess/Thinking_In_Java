@@ -1,6 +1,5 @@
 package com.elephant.innerclasses.exercises;
 
-
 class OuterIncludeInner{
 	class Inner{}
 }
