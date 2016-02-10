@@ -1,5 +1,5 @@
 package com.elephant.innerclasses.controller;
-
+import static com.elephant.util.Print.*;
 /**
  * 	The common methods for any control event
  */
@@ -16,12 +16,11 @@ public abstract class Event {
 	}
 
 	public void start(){
-		eventTime=System.nanoTime()*delayTime;
+		eventTime=System.nanoTime()+delayTime;
 	}
 
 	public boolean ready(){
-		return System.nanoTime()>=eventTime;
-	}
+		return System.nanoTime()>=eventTime;}
 
 	public abstract void action();
 
@@ -30,8 +29,6 @@ public abstract class Event {
 		long time1=System.currentTimeMillis();
 		System.out.println(time1/1000/60/60/24/365+1970);
 		System.out.println((System.nanoTime()-start)/1000000.0);
-
-
 	}
 
 }
