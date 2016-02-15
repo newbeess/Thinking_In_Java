@@ -4,7 +4,6 @@ import static com.elephant.util.Print.*;
 /**
  *	Containers print themselves automatically.
  */
-
 public class PrintingContainers {
 	static Collection fill(Collection<String> collection){
 		collection.add("rat");
