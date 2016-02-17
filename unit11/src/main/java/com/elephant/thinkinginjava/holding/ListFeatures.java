@@ -10,13 +10,17 @@ public class ListFeatures {
 		List<Pet> pets=Pets.arrayList(7);
 		print("1: "+pets);
 
+		// Add pet to List
 		Hamster h=new Hamster();
 		pets.add(h);
 		print("2: "+pets);
 		print("3: "+pets.contains(h));
 
-		pets.remove(h);//Remove by objects
+		//Remove by objects
+		pets.remove(h);
+		//get() : Get the reference of the specified index number
 		Pet p=pets.get(2);
+		//indexOf() : Get the index number of the reference
 		print("4: "+p+" "+pets.indexOf(p));
 
 		Pet cymric=new Cymric();
