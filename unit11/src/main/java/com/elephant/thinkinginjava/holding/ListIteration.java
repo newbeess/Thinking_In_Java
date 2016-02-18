@@ -2,9 +2,8 @@ package com.elephant.thinkinginjava.holding;
 import static com.elephant.util.Print.*;
 import typeinfo.pets.*;
 import java.util.*;
-/**
- * Created by elephant on 16/2/18.
- */
+
+
 public class ListIteration {
 	public static void main(String[] args){
 		List<Pet> pets =Pets.arrayList(8);
