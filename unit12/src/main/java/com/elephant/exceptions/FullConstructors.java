@@ -1,4 +1,4 @@
-package com.elepant.exceptions;
+package com.elephant.exceptions;
 
 class MyException extends Exception{
 	public MyException(){}
@@ -17,7 +17,7 @@ public class FullConstructors {
 		try {
 			f();
 		} catch (MyException e){
-			e.printStackTrace(System.out);
+			e.printStackTrace();
 		}
 		try {
 			g();

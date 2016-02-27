@@ -1,4 +1,4 @@
-package com.elepant.exceptions;
+package com.elephant.exceptions;
 
 /**
  * Create your own exceptions
