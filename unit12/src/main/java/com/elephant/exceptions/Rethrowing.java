@@ -20,7 +20,7 @@ public class Rethrowing {
 		try {
 			f();
 		} catch (Exception e){
-			System.out.println("Inside g(),e.printStackTrace()");
+			System.out.println("Inside h(),e.printStackTrace()");
 			e.printStackTrace(System.out);
 			throw (Exception)e.fillInStackTrace();
 		}
