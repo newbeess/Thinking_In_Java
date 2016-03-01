@@ -8,7 +8,7 @@ public class InputFile {
 	private BufferedReader in;
 	public InputFile(String fname) throws Exception{
 		try {
-			in=new BufferedReader(fname);
+			in=new BufferedReader(new FileReader(fname));
 			// Other code that might throw exceptions
 		} catch (FileNotFoundException e){
 			System.out.println(" Could not open "+fname);
