@@ -25,6 +25,7 @@ public class DynamicFields {
 			result.append("\n");
 		}
 		return result.toString();
+
 	}
 	private int hasField(String id){
 		for (int i=0;i<fields.length;i++)
