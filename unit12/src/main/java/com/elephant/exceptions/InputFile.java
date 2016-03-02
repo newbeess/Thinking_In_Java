@@ -3,7 +3,6 @@ import java.io.*;
 /**
  * Paying attention to exceptions in constructors.
  */
-
 public class InputFile {
 	private BufferedReader in;
 	public InputFile(String fname) throws Exception{
