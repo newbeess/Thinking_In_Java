@@ -4,7 +4,7 @@ import com.sun.codemodel.internal.fmt.JBinaryFile;
 import java.io.*;
 
 public class Hex {
-	public static String format(byte[] data){
+/*	public static String format(byte[] data){
 		StringBuilder result=new StringBuilder();
 		int n=0;
 		for (byte b : data){
@@ -25,4 +25,5 @@ public class Hex {
 		else
 			System.out.println(format(BinaryFile.read(new File(args[0]))));
 	}
+	*/
 }
