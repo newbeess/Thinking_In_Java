@@ -9,6 +9,7 @@ public class Conversion {
 		// char
 		char u='a';
 		System.out.println("u='a'");
+		//f.format("d: %d\n",u);
 		f.format("s: %s\n",u);
 		f.format("c: %c\n",u);
 		f.format("b: %b\n",u);
@@ -20,6 +21,7 @@ public class Conversion {
 		// int
 		int v=121;
 		System.out.println("v=121");
+		f.format("d: %d\n",v);
 		f.format("s: %s\n",v);
 		f.format("c: %c\n",v);
 		f.format("b: %b\n",v);
@@ -31,6 +33,7 @@ public class Conversion {
 		// BigInteger
 		BigInteger w=new BigInteger("50000000000000000");
 		System.out.println("w = new BigInteger(\"50000000000000000\")");
+		f.format("d: %d\n",w);
 		f.format("s: %s\n",w);
 		//f.format("c: %c\n",w);
 		f.format("b: %b\n",w);
@@ -42,6 +45,7 @@ public class Conversion {
 		// double
 		double x=179.543;
 		System.out.println("x = 179.543");
+		//f.format("d: %d\n",x);
 		f.format("s: %s\n",x);
 		//f.format("c: %c\n",x);
 		f.format("b: %b\n",x);
@@ -53,6 +57,7 @@ public class Conversion {
 		// Conversion
 		Conversion y=new Conversion();
 		System.out.println("y = new Conversion()");
+		//f.format("d: %d\n",y);
 		f.format("s: %s\n",y);
 		//f.format("c: %c\n",y);
 		f.format("b: %b\n",y);
@@ -60,5 +65,17 @@ public class Conversion {
 		//f.format("e: %e\n",y);
 		//f.format("x: %x\n",y);
 		f.format("h: %h\n",y);
+
+		// Boolean
+		boolean z=false;
+		System.out.println("z = false");
+		//f.format("d: %d\n",z);
+		f.format("s: %s\n",z);
+		//f.format("c: %c\n",z);
+		f.format("b: %b\n",z);
+		//f.format("f: %f\n",z);
+		//f.format("e: %e\n",z);
+		//f.format("x: %x\n",z);
+		f.format("h: %h\n",z);
 	}
 }
