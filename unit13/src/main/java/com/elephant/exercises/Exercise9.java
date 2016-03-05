@@ -1,7 +1,10 @@
 package com.elephant.exercises;
 
-/**
- * Created by elephant on 16/3/4.
- */
+
 public class Exercise9 {
+	public static String knights=
+			"Then,when you have found the shrubbery,you must cut down the mightiest tree in the forest... with ... a herring!";
+	public static void main(String[] args){
+		System.out.println(knights.replaceAll("(?i)[aeiou]","_"));
+	}
 }
