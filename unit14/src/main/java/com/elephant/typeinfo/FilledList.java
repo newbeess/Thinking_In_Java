@@ -6,6 +6,7 @@ class CountedInteger{
 	private final long id=counter++;
 	public String toString(){return Long.toString(id);}
 }
+
 public class FilledList<T> {
 	private Class<T> type;
 	public FilledList(Class<T> type){this.type=type;}
