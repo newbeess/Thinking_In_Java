@@ -20,3 +20,4 @@ public class RandomList<T> {
 			System.out.println(x.select()+" ");
 	}
 }
+

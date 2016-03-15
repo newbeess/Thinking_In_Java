@@ -43,6 +43,7 @@ public class CoffeeGenerator implements Generator<Coffee>,Iterable<Coffee>{
 		CoffeeGenerator g=new CoffeeGenerator();
 		for (int i=0;i<5;i++)
 			System.out.println(g.next());
+		// Cause implements Iterable interface
 		for (Coffee c : new CoffeeGenerator(3))
 			System.out.println(c);
 	}
