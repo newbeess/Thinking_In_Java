@@ -24,7 +24,7 @@ class IterableFibonacci implements Iterable<Integer>{
 	}
 }
 
-public class Exercise4 {
+public class Exercise7 {
 	public static void main(String[] args){
 		for (int i : new IterableFibonacci(10))
 			System.out.print(i+" ");
