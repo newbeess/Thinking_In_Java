@@ -1,7 +1,12 @@
 package com.elephant.generics;
+import com.elephant.util.New;
+import typeinfo.pets.*;
+import java.util.*;
 
-/**
- * Created by elephant on 16/3/16.
- */
-public class LimitsOfinference {
+public class LimitsOfInference {
+	static void f(Map<Person,List<? extends Pet>> peoplePet){}
+
+	public static void main(String[] args){
+		//f(New.map());
+	}
 }

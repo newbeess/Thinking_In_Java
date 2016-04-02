@@ -2,6 +2,7 @@ package com.elephant.generics;
 import java.util.*;
 
 public class GenericVarargs {
+
 	public static <T> List<T> makeList(T... args){
 		List<T> resutl=new ArrayList<T>();
 		for (T item : args)
