@@ -21,8 +21,8 @@ public class ArrayOfGenerics {
 		Object[] objects=ls;
 		objects[1]=new ArrayList<Integer>();
 //
-		List<BerylliumSphere>[] spheres=(List<BerylliumSphere[]>) new List[10];
-		for (int i=0;i<spheres.length;i++)
-			spheres[i]=new ArrayList<BerylliumSphere>();
+	//	List<BerylliumSphere>[] spheres=(List<BerylliumSphere[]>) new List[10];
+	//	for (int i=0;i<spheres.length;i++)
+	//		spheres[i]=new ArrayList<BerylliumSphere>();
 	}
 }
