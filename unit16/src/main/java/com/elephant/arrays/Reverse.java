@@ -2,36 +2,19 @@ package com.elephant.arrays;
 import java.util.*;
 import com.elephant.util.*;
 import static com.elephant.util.Print.*;
-
 /**
- * Implmenting Comparable in a class
+ * The Collections.reverseOrder() Comparater
  */
-
-public class CompType implements Comparable<CompType> {
-	int i;
-	int j;
-	private static int count=1;
-	public CompType(int n1,int n2){i=n1;j=n2;}
-	public String toString(){
-		String result="[i ="+i+", j= "+j+"]";
-		if (count++ %3 ==0)
-			result +="\n";
-		return result;
-	}
-	public int compareTo(CompType rv) {
-		return (i < rv.i ? -1 : (i == rv.i ? 0 : 1));
-	}
-
-
+public class Reverse {
 	public static void main(String[] args){
-		CompType[] a= {
+		CompType[] a={
 				new CompType(58,55),new CompType(93,61),new CompType(61,29),
 				new CompType(68,0),new CompType(22,7),new CompType(48,12),
 				new CompType(1,88),new CompType(41,80),new CompType(11,90)
 		};
 		print("before sorting: ");
 		print(Arrays.toString(a));
-		Arrays.sort(a);
+		Arrays.sort(a,Collections.reverseOrder());
 		print("After sorting: ");
 		print(Arrays.toString(a));
 	}
