@@ -1,9 +1,6 @@
 package com.elephant.arrays;
 import java.util.*;
 import com.elephant.util.*;
-
-import javax.annotation.Generated;
-
 import static com.elephant.util.Print.*;
 
 /**
