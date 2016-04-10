@@ -13,6 +13,5 @@ public class Echo {
 		String s;
 		while((s = stdin.readLine()) != null && s.length()!= 0)
 			System.out.println(s);
-		// An empty line or Ctrl-Z terminates the program
 	}
-} ///:~
+}
