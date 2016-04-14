@@ -1,13 +1,14 @@
 package com.elephant.concurrency;
 
 /**
- * The most basic use of the Thread class
+ * Adding more threads
  */
 
-public class BasicThreads {
+public class MoreBasicThreads {
 	public static void main(String[] args) {
-		Thread t = new Thread(new LiftOff());
-		t.start();
+		for (int i = 0; i < 5; i++)
+			new Thread(new LiftOff()).start();
 		System.out.println("Waiting for LiftOff");
+
 	}
 }
