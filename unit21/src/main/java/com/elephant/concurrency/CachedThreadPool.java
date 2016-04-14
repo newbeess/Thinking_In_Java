@@ -7,8 +7,9 @@ import java.util.concurrent.*;
  */
 public class CachedThreadPool {
 	public static void main(String[] args) {
-		Executor executor = Executors.newCachedThreadPool();
+		ExecutorService executor = Executors.newCachedThreadPool();
 		for (int i = 0; i < 5; i++)
 			executor.execute(new LiftOff());
+		executor.shutdown();
 	}
 }
